@@ -5,14 +5,12 @@ public class TaskFactory {
     public TaskFactory(){
         tasks = new Task[SIZE];
         for(int i = 0; i<SIZE; i++){
-            tasks[i] = new Task(i, Task.Status.ASSEMBLING_REQUIREMENTS,"description" +1,"","", "")
+            tasks[i] = new Task(i, Task.Status.ASSEMBLING_REQUIREMENTS,"description" +1,"","", "");
         }
     }
 
 
-    public Task getTask(){
-
-    }
+    //public Task getTask(){}
 
     public void updateTask(Task task){
         for (int i=0; i<SIZE; i++){
